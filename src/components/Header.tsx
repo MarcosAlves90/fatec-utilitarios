@@ -1,4 +1,5 @@
 import { Calculator } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function Header() {
   return (
@@ -17,16 +18,19 @@ export function Header() {
             </p>
           </div>
         </div>
-        <div className="hidden md:flex items-center gap-2 text-sm text-muted-foreground">
-          <div className="px-3 py-1 bg-muted rounded-md">
-            <span className="font-semibold">P1:</span> 35%
+        <div className="flex items-center gap-3">
+          <div className="hidden md:flex items-center gap-2 text-sm text-muted-foreground">
+            <div className="px-3 py-1 bg-muted rounded-md">
+              <span className="font-semibold">P1:</span> 35%
+            </div>
+            <div className="px-3 py-1 bg-muted rounded-md">
+              <span className="font-semibold">P2:</span> 35%
+            </div>
+            <div className="px-3 py-1 bg-muted rounded-md">
+              <span className="font-semibold">Trab:</span> 30%
+            </div>
           </div>
-          <div className="px-3 py-1 bg-muted rounded-md">
-            <span className="font-semibold">P2:</span> 35%
-          </div>
-          <div className="px-3 py-1 bg-muted rounded-md">
-            <span className="font-semibold">Trab:</span> 30%
-          </div>
+          <ThemeToggle />
         </div>
       </div>
     </header>
