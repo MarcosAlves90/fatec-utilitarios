@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
+# FATEC Utilitários
 
-## Project info
+Uma suíte de ferramentas de alta performance projetada para simplificar a vida caótica do estudante da FATEC. Enquanto outros lutam com portais institucionais lentos e cálculos manuais, nós automatizamos o sucesso.
 
-**URL**: https://lovable.dev/projects/edc615ce-422c-4a2e-93d9-62c256fa7a76
+## ⚡ A Visão
 
-## How can I edit this code?
+O sistema acadêmico tradicional é lento e burocrático. O **FATEC Utilitários** é a resposta rápida, moderna e eficiente. Centralizamos o que importa, eliminamos o ruído e entregamos uma experiência de usuário que você realmente merece.
 
-There are several ways of editing your application.
+## 🛠 Arsenal Tecnológico
 
-**Use Lovable**
+- **Core:** [React 18](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- **Build System:** [Vite](https://vitejs.dev/)
+- **UI/UX:** [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)
+- **State & Data:** TanStack Query
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/edc615ce-422c-4a2e-93d9-62c256fa7a76) and start prompting.
+## 🚀 Começando
 
-Changes made via Lovable will be committed automatically to this repo.
+Se você quer contribuir ou rodar localmente, siga o protocolo:
 
-**Use your preferred IDE**
+### Pré-requisitos
+- Node.js (LTS)
+- Gerenciador de pacotes (npm, pnpm ou bun)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Instalação
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# 1. Clone o repositório
+git clone https://github.com/MarcosAlves90/fatec-utilitarios.git
 
-Follow these steps:
+# 2. Entre na diretoria
+cd fatec-utilitarios
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 3. Instale as dependências
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 📦 Estrutura do Projeto
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+A arquitetura é limpa e modular.
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/   # Componentes reutilizáveis (UI Building Blocks)
+├── pages/        # Rotas da aplicação (Index, NotFound, etc.)
+├── hooks/        # Lógica de estado reutilizável
+├── lib/          # Utilitários e configurações de bibliotecas
+└── utils/        # Funções auxiliares
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🤝 Contribuição
 
-## What technologies are used for this project?
+Pull requests são aceitos, mas com algumas regras:
 
-This project is built with:
+1. O código deve ser tipado (TypeScript estrito).
+2. Componentes devem seguir o padrão shadcn.
+3. Build não pode estar quebrada.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📝 Licença
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/edc615ce-422c-4a2e-93d9-62c256fa7a76) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Distribuído sob a licença MIT.
